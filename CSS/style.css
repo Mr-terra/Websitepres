@@ -1,0 +1,116 @@
+header{
+    padding: 20px 50px;
+    background-color: white;
+    height: 150px;
+    border: solid 1px black;
+}
+
+footer{
+    margin-top: auto;
+    padding: 20px 50px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+body {
+    font-size: 1em;
+    background-color: wheat;
+  }
+
+h1{
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+.bpaccueil{
+    top: 2%;
+    right: 2%;
+    width:140px;
+    height:40px;
+    position: absolute;
+    margin-top: 35px;
+    font-size: 2em;
+    border: solid 2px black;
+    margin: 20px; 
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.bpretour{
+    top: 10%;
+    right: 2%;
+    width:140px;
+    height:40px;
+    position: absolute;
+    margin-top: 35px;
+    font-size: 2em;
+    border: solid 2px black;
+    margin: 20px; 
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.cont_hp{
+    display: flex;
+    width: 50%;
+    padding-left: 25px;
+}
+
+.titre{
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.section{
+    font-size: 1.5em;
+}
+
+.box{
+    border: solid 2px black;
+    margin: 20px; 
+}
+
+.center{
+    text-align: center;
+    text-decoration: underline;    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.liksize{
+    height: 50px;
+    width: 50px;
+}
+
+.bpcontact {
+    border: solid 2px black;
+    padding: 5px; 
+    border-radius: 24px 24px 24px 24px;
+}
+
+.repart{
+    display: flex;
+    justify-content: space-between
+}
